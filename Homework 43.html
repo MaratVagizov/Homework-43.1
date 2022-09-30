@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 43</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="h1">ДОБАВЛЕНИЕ, ИЗМЕНЕНИЕ И УДАЛЕНИЕ ЭЛЕМЕНТА ИЗ ТАБЛИЦЫ</h1>
+        
+        <form name="list" class="list">
+            <div class="one">
+                <p class="top_input_txt">Имя</p>
+                <input type="text" name="name" class="input" placeholder="Bruce Reyes">
+            </div>
+            <div class="two">
+                <p class="top_input_txt">Вораст</p>
+                <input type="number" name="date" class="input" placeholder="24">
+            </div>
+            <button class="btn">Показать</button>
+        </form>
+
+        <div class="table">
+            <span class="grey_txt">№</span>
+            <span class="grey_txt">Имя студента</span>
+            <span class="grey_txt">Год рождения</span>
+            <span class="grey_txt">Действия</span>
+        </div>
+        <div class="container_js"></div>
+    </div>
+
+
+    <div class="modal_bg"></div>
+    <div class="modal">
+        <h1>Edite Name/age</h1>
+        <div class="inputGroup">
+            <input class="input_2" type="text" placeholder="change name">
+            <input class="input_3" type="text" placeholder="change age">
+            <button class="save">save</button>
+        </div>
+        <button class="cancel">
+            cancel
+        </button>
+    </div>
+    <!-- <img src="./img/delete.svg" -->
+
+    <script src="./js/Homework 43.js"></script>
+</body>
+</html>
